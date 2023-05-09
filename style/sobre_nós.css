@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Noto+Sans:ital,wght@1,300&family=Pacifico&family=Poltawski+Nowy:wght@500&family=Quicksand&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@200 & family= Noto+Sans:ital,wght@1,300 & family= Pacifico & family= Poltawski+ Nowy:wght@500 & family= Areia movediça & família= Raleway:ital@1 &family= Roboto:wght@700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Noto+Sans:ital,wght@1,300&family=Pacifico&family=Poltawski+Nowy:wght@500&family=Quicksand&family=Raleway:ital,wght@0,500;1,400&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.Conteudo_sobre_nos{
+    background-color: rgb(110, 110, 253);
+    
+}
+.cabecalio{
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding-right: 6rem;
+    background-color: white
+}
+.cabecalio_link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 1.7rem;
+    text-decoration: none;
+    color: black;
+}
+.cabecalio_titulo{
+    padding: 1rem 35rem 1rem 4rem;  
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem ; 
+
+    /* fim do header */
+    
+}
+.Conteudo_principal{
+    box-sizing: border-box;
+    margin: 5% 20% 5% 20%;
+    padding: 2%;
+    /*border: solid 5px black;*/
+    background-color: black;
+    border-radius: 1rem;
+    
+    
+
+}
+.titulo_imagem{
+    display: flex;
+}
+.churros_img{
+    height: 20rem;
+    border: solid red ;
+    border-radius: 1rem;
+    
+}
+.titulo{
+    color:whitesmoke;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem
+    
+    
+}
+.titulo_conteudo{
+
+    color: purple;
+    display: flex; 
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    margin-top: 2rem;
+}
+p{
+    margin-top: 0.8rem;
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+
+/* fim do main */
+
+.rodape{
+    background-color: black;
+}
+
+.rodape_link{
+    text-align: left;
+    padding: 0.3rem;
+    text-decoration: none;
+       
+}
+.links{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    
+       
+}
