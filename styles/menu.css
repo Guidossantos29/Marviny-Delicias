@@ -37,7 +37,7 @@
 }
 
 .footer__container{
-    position: absolute;
+    position: relative;
     border-top: 1px;
     bottom: 0;
     left: 0;
@@ -50,3 +50,6 @@
 .footer__title{
     
 }
+
+
+
