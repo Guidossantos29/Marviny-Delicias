@@ -1,0 +1,37 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@200 & family= Noto+Sans:ital,wght@1,300 & family= Pacifico & family= Poltawski+ Nowy:wght@500 & family= Areia movediça & family= Raleway:ital,wght@0,500;1,400 & family= Roboto:wght@700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:wght@200&family=Noto+Sans:ital,wght@1,300&family=Pacifico&family=Poltawski+Nowy:wght@500&family=Quicksand&family=Raleway:ital,wght@0,500;1,400&family=Roboto:wght@700&display=swap');
+
+/*fontes*/
+
+@import 'variables.css';
+
+
+.container{
+    padding: 3rem;
+    background-color: var(--primary-bg);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__logo{
+    font-family: 'Courgette', cursive;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
