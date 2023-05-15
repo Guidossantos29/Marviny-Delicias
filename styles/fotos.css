@@ -1,0 +1,92 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@200 & family= Noto+Sans:ital,wght@1,300 & family= Pacifico & family= Poltawski+ Nowy:wght@500 & family= Areia movediça & family= Raleway:ital,wght@0,500;1,400 & family= Roboto:wght@700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:wght@200&family=Noto+Sans:ital,wght@1,300&family=Pacifico&family=Poltawski+Nowy:wght@500&family=Quicksand&family=Raleway:ital,wght@0,500;1,400&family=Roboto:wght@700&display=swap');
+
+/*fontes*/
+
+@import 'variables.css';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    padding: 3rem 0;
+    background-color: var(--primary-bg);
+    
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__logo{
+    font-family: 'Courgette', cursive;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.footer__container{
+    position: relative;
+    border-top: 1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 0;
+    background-color: var(--primary-bg);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav__link:hover{
+    color: red;
+}
+
+.conteudo_fotos{
+    background-color: white;
+}
+
+.corpo{
+    background-color: white;
+}
+
+
+.titulo{
+    margin: 2rem 5rem 1rem 10rem;
+    font-family: 'Pacifico', cursive;
+
+} 
+
+.img-gourmet{
+    display: flex;
+    margin:2rem 10rem 10rem 10rem;
+
+    
+}
+.img-img-gourmet{
+    border: solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+
+

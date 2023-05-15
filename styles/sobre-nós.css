@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    padding: 3rem 0;
+    background-color: var(--primary-bg);
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__logo{
+    font-family: 'Courgette', cursive;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.footer__container{
+    position: relative;
+    border-top: 1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 0;
+    background-color: var(--primary-bg);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav__link:hover{
+    color: red;
+}
+
+.Conteudo_principal{
+    box-sizing: border-box;
+    margin: 5% 20% 5% 20%;
+    padding: 2%;
+    /*border: solid 5px black;*/
+    background-color: black;
+    border-radius: 1rem;
+    
+    
+
+}
+.titulo_imagem{
+    display: flex;
+}
+.churros_img{
+    height: 20rem;
+    border: solid red ;
+    border-radius: 1rem;
+    
+}
+.titulo{
+    color:whitesmoke;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem
+    
+    
+}
+.titulo_conteudo{
+
+    color: purple;
+    display: flex; 
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    margin-top: 2rem;
+}
+p{
+    margin-top: 0.8rem;
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
