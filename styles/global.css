@@ -1,0 +1,16 @@
+@import 'menu.css';
+@import 'variables.css';
+@import 'global.css';
+@import 'main.css';
+@import 'fotos.css';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
