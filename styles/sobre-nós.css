@@ -7,7 +7,7 @@
 
 .container{
     padding: 3rem 0;
-    background-color: var(--primary-bg);
+    background-color: #BB40DE;
     
 }
 
@@ -34,18 +34,6 @@
     
 }
 
-.footer__container{
-    position: relative;
-    border-top: 1px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 3rem 0;
-    background-color: var(--primary-bg);
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .nav__link:hover{
     color: red;
 }
@@ -54,7 +42,6 @@
     box-sizing: border-box;
     margin: 5% 20% 5% 20%;
     padding: 2%;
-    /*border: solid 5px black;*/
     background-color: black;
     border-radius: 1rem;
     
@@ -90,3 +77,16 @@ p{
     margin-right: 5%;
     font-size: 1.5rem;
 }
+
+.footer__container{
+    position: relative;
+    border-top: 1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #BB40DE;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
